@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(153, 115, 0);
+}
+
+header{
+    margin:0 25% 0;
+}
+ul>li>a{
+    margin-top: 1%;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
