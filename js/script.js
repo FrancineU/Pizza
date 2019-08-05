@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $(".ordering").hover(function(){
+        $("#pizzaOrders").show();
+
+    });
 
     $("#add-order").click(function () {
         $("#new-orders").append('<div class="new-order">' +
