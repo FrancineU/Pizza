@@ -44,5 +44,14 @@ ul>li>a{
     outline: none;
     height: 1%;
     color:white;
-    width:25%;
+    width:150%;
 }
+
+#pizzaOrders{
+    display: none;
+    float: right;
+    margin: -50% 0 0 0;
+    width:23%;
+
+}
+
