@@ -1,5 +1,6 @@
 body{
     background-color:rgb(153, 115, 0);
+    font-family: 'Cookie', cursive;
 }
  
 header{
@@ -36,11 +37,12 @@ ul>li>a{
     font-family: 'Cookie', cursive;
     font-size: 150%;
 }
-/* #new-first-name, #new-last-name, .new-delivery, .new-size, .new-topping, .new-crust{
+#new-first-name, #new-last-name, .new-delivery, .new-size, .new-topping, .new-crust{
     border: none;
     border-bottom: 2px solid;
     background: transparent;
     outline: none;
-    height: 40px;
+    height: 1%;
     color:white;
-} */
+    width:25%;
+}

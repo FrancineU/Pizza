@@ -25,10 +25,10 @@ $(document).ready(function () {
             '<div class="form-group">' +
             '<label for="new-crust">Crust</label>' +
             '<select class="form-control new-crust">' +
-                '<option value="" disabled selected>select crust</option>' +
-                '<option>crispy</option>' +
-                '<option>stuffed</option>' +
-                '<option>gluten-free</option>' +
+            '<option value="" disabled selected>select crust</option>' +
+            '<option>crispy</option>' +
+            '<option>stuffed</option>' +
+            '<option>gluten-free</option>' +
             '</select>' +
             '</div>' +
 
