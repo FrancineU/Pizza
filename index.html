@@ -32,12 +32,12 @@
                 Delicious Pizzas</h1>
         </div>
         <div id="formText">
-            
+
         </div>
         <div class="row" id="pizzaOrders">
             <h1>Place Order</h1>
             <div class="col-md-6">
-                <form id="new-person">
+                <form id="new-pizza">
                     <div class="form-group">
                         <label for="new-first-name">First name</label>
                         <input type="text" class="form-control" id="new-first-name">
@@ -63,7 +63,7 @@
                             <div class="form-group">
                                 <label for="new-size">Size</label>
                                 <select class="form-control new-size">
-                                    <option>select size</option>
+                                    <option value="" disabled selected>select size</option>
                                     <option>small</option>
                                     <option>medium</option>
                                     <option>large</option>
@@ -73,7 +73,7 @@
                             <div class="form-group">
                                 <label for="new-topping">topping</label>
                                 <select class="form-control new-topping">
-                                    <option>select topping</option>
+                                    <option value="" disabled selected>select topping</option>
                                     <option>bacon</option>
                                     <option>mushrooms</option>
                                     <option>onions</option>
@@ -107,12 +107,13 @@
             <div class="col-md-6">
                 <div id="show-order">
                     <h2></h2>
-                    <p>First name: <span class="first-name"></span></p>
-                    <p>Last name: <span class="last-name"></span></p>
+                    <!-- <p>First name: <span class="first-name"></span></p>
+                    <p>Last name: <span class="last-name"></span></p> -->
                     <p>Orders:</p>
-                    <ul id="orders">
-
-                    </ul>
+                    <ul id="names"><p style="text-decoration: underline">names</p></ul>
+                    <ul id="pizzass"><p style="text-decoration: underline">Orders</p></ul>
+                    <ul id="deliver"> <p style="text-decoration: underline">delivery?</p> </ul>
+                    <ul id="deliverCharge"> <p style="text-decoration: underline">delivery charge is: </p> </ul>
                 </div>
             </div>
 
